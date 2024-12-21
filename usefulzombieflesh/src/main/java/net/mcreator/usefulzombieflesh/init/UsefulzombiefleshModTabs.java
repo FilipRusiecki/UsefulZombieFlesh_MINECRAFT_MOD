@@ -23,6 +23,10 @@ public class UsefulzombiefleshModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(UsefulzombiefleshModItems.SALT.get());
+			tabData.accept(UsefulzombiefleshModItems.FRYING_PAN.get());
+			tabData.accept(UsefulzombiefleshModItems.WATER_BOWL.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(UsefulzombiefleshModBlocks.SALT_ORE.get().asItem());
 		}
 	}
 }

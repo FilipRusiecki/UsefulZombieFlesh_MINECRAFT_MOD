@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.usefulzombieflesh.init.UsefulzombiefleshModTabs;
 import net.mcreator.usefulzombieflesh.init.UsefulzombiefleshModItems;
+import net.mcreator.usefulzombieflesh.init.UsefulzombiefleshModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -39,6 +40,8 @@ public class UsefulzombiefleshMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		UsefulzombiefleshModBlocks.REGISTRY.register(bus);
 
 		UsefulzombiefleshModItems.REGISTRY.register(bus);
 

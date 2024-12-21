@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "usefulzombieflesh:water_bowl"
+    },
+    {
+      "item": "usefulzombieflesh:frying_pan"
+    }
+  ],
+  "result": {
+    "item": "usefulzombieflesh:salt",
+    "count": 1
+  }
+}
