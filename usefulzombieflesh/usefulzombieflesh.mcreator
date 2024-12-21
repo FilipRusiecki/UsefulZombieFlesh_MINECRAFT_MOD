@@ -95,11 +95,25 @@
       "registry_name": "salt_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/usefulzombieflesh/forge/biome_modifier/salt_ore_biome_modifier.json",
           "src/main/resources/assets/usefulzombieflesh/blockstates/salt_ore.json",
+          "src/main/resources/data/usefulzombieflesh/worldgen/configured_feature/salt_ore.json",
           "src/main/resources/assets/usefulzombieflesh/models/item/salt_ore.json",
-          "src/main/resources/data/usefulzombieflesh/loot_tables/blocks/salt_ore.json",
           "src/main/resources/assets/usefulzombieflesh/models/block/salt_ore.json",
+          "src/main/resources/data/usefulzombieflesh/worldgen/placed_feature/salt_ore.json",
           "src/main/java/net/mcreator/usefulzombieflesh/block/SaltOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SaltOreDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_ore_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/usefulzombieflesh/loot_tables/blocks/salt_ore.json"
         ]
       }
     }
