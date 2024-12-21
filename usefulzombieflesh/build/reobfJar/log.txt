@@ -136,6 +136,8 @@ Adding input to inheritance map
 Processing entries
 Conflicting propagated mapping for net/mcreator/usefulzombieflesh/item/SaltItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
 Conflicting propagated mapping for net/mcreator/usefulzombieflesh/item/SaltItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
+Conflicting propagated mapping for net/mcreator/usefulzombieflesh/item/FryingPanItem/hasCraftingRemainingItem()Z from net/minecraft/world/item/Item/hasCraftingRemainingItem()Z: hasCraftingRemainingItem -> m_41470_
+Conflicting propagated mapping for net/mcreator/usefulzombieflesh/block/SaltOreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Adding extras
 Sorting
@@ -145,21 +147,63 @@ Writing Output: E:\MINECRAFT MODS\UsefulZombieFlesh\UsefulZombieFlesh_MINECRAFT_
   META-INF/mods.toml
   assets/
   assets/usefulzombieflesh/
+  assets/usefulzombieflesh/blockstates/
+  assets/usefulzombieflesh/blockstates/salt_ore.json
   assets/usefulzombieflesh/lang/
   assets/usefulzombieflesh/lang/en_us.json
   assets/usefulzombieflesh/models/
+  assets/usefulzombieflesh/models/block/
+  assets/usefulzombieflesh/models/block/salt_ore.json
   assets/usefulzombieflesh/models/item/
+  assets/usefulzombieflesh/models/item/baked_flesh.json
+  assets/usefulzombieflesh/models/item/dried_flesh.json
+  assets/usefulzombieflesh/models/item/frying_pan.json
   assets/usefulzombieflesh/models/item/salt.json
+  assets/usefulzombieflesh/models/item/salt_ore.json
+  assets/usefulzombieflesh/models/item/water_bowl.json
   assets/usefulzombieflesh/textures/
+  assets/usefulzombieflesh/textures/block/
+  assets/usefulzombieflesh/textures/block/saltore.png
   assets/usefulzombieflesh/textures/item/
+  assets/usefulzombieflesh/textures/item/bakedflesh.png
+  assets/usefulzombieflesh/textures/item/driedflesh.png
+  assets/usefulzombieflesh/textures/item/fryingpan.png
   assets/usefulzombieflesh/textures/item/salt.png
+  assets/usefulzombieflesh/textures/item/waterbowl.png
+  data/
+  data/usefulzombieflesh/
+  data/usefulzombieflesh/forge/
+  data/usefulzombieflesh/forge/biome_modifier/
+  data/usefulzombieflesh/forge/biome_modifier/salt_ore_biome_modifier.json
+  data/usefulzombieflesh/loot_tables/
+  data/usefulzombieflesh/loot_tables/blocks/
+  data/usefulzombieflesh/loot_tables/blocks/salt_ore.json
+  data/usefulzombieflesh/recipes/
+  data/usefulzombieflesh/recipes/baked_flesh_craft.json
+  data/usefulzombieflesh/recipes/dried_flesh_craft.json
+  data/usefulzombieflesh/recipes/frying_pan_craft.json
+  data/usefulzombieflesh/recipes/salt_craft.json
+  data/usefulzombieflesh/recipes/water_bowl_craft.json
+  data/usefulzombieflesh/recipes/water_dublication.json
+  data/usefulzombieflesh/worldgen/
+  data/usefulzombieflesh/worldgen/configured_feature/
+  data/usefulzombieflesh/worldgen/configured_feature/salt_ore.json
+  data/usefulzombieflesh/worldgen/placed_feature/
+  data/usefulzombieflesh/worldgen/placed_feature/salt_ore.json
   net/
   net/mcreator/
   net/mcreator/usefulzombieflesh/
   net/mcreator/usefulzombieflesh/UsefulzombiefleshMod.class
+  net/mcreator/usefulzombieflesh/block/
+  net/mcreator/usefulzombieflesh/block/SaltOreBlock.class
   net/mcreator/usefulzombieflesh/init/
+  net/mcreator/usefulzombieflesh/init/UsefulzombiefleshModBlocks.class
   net/mcreator/usefulzombieflesh/init/UsefulzombiefleshModItems.class
   net/mcreator/usefulzombieflesh/init/UsefulzombiefleshModTabs.class
   net/mcreator/usefulzombieflesh/item/
+  net/mcreator/usefulzombieflesh/item/BakedFleshItem.class
+  net/mcreator/usefulzombieflesh/item/DriedFleshItem.class
+  net/mcreator/usefulzombieflesh/item/FryingPanItem.class
   net/mcreator/usefulzombieflesh/item/SaltItem.class
+  net/mcreator/usefulzombieflesh/item/WaterBowlItem.class
   pack.mcmeta
