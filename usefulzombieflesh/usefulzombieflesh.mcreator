@@ -154,6 +154,18 @@
           "src/main/resources/data/usefulzombieflesh/recipes/dried_flesh_craft.json"
         ]
       }
+    },
+    {
+      "name": "BakedFleshCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_flesh_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/usefulzombieflesh/recipes/baked_flesh_craft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

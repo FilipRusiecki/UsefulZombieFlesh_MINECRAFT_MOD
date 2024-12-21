@@ -1,0 +1,205 @@
+{
+  "mod_elements": [
+    {
+      "name": "Salt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/usefulzombieflesh/item/SaltItem.java",
+          "src/main/resources/assets/usefulzombieflesh/models/item/salt.json"
+        ]
+      }
+    },
+    {
+      "name": "FryingPan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frying_pan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/usefulzombieflesh/item/FryingPanItem.java",
+          "src/main/resources/assets/usefulzombieflesh/models/item/frying_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "WaterBowl",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_bowl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/usefulzombieflesh/models/item/water_bowl.json",
+          "src/main/java/net/mcreator/usefulzombieflesh/item/WaterBowlItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WaterBowlCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_bowl_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/usefulzombieflesh/recipes/water_bowl_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "WaterDublication",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_dublication",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/usefulzombieflesh/recipes/water_dublication.json"
+        ]
+      }
+    },
+    {
+      "name": "FryingPanCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frying_pan_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/usefulzombieflesh/recipes/frying_pan_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "SaltCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/usefulzombieflesh/recipes/salt_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "SaltOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/usefulzombieflesh/forge/biome_modifier/salt_ore_biome_modifier.json",
+          "src/main/resources/assets/usefulzombieflesh/blockstates/salt_ore.json",
+          "src/main/resources/data/usefulzombieflesh/worldgen/configured_feature/salt_ore.json",
+          "src/main/resources/assets/usefulzombieflesh/models/item/salt_ore.json",
+          "src/main/resources/assets/usefulzombieflesh/models/block/salt_ore.json",
+          "src/main/resources/data/usefulzombieflesh/worldgen/placed_feature/salt_ore.json",
+          "src/main/java/net/mcreator/usefulzombieflesh/block/SaltOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SaltOreDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_ore_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/usefulzombieflesh/loot_tables/blocks/salt_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DriedFlesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_flesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/usefulzombieflesh/models/item/dried_flesh.json",
+          "src/main/java/net/mcreator/usefulzombieflesh/item/DriedFleshItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BakedFlesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_flesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/usefulzombieflesh/models/item/baked_flesh.json",
+          "src/main/java/net/mcreator/usefulzombieflesh/item/BakedFleshItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DriedFleshCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_flesh_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/usefulzombieflesh/recipes/dried_flesh_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "BakedFleshCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_flesh_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/usefulzombieflesh/recipes/baked_flesh_craft.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.usefulzombieflesh.water_bowl": "Water Bowl",
+      "item.usefulzombieflesh.baked_flesh": "Baked Flesh",
+      "item.usefulzombieflesh.salt": "Salt",
+      "item.usefulzombieflesh.frying_pan": "Frying Pan",
+      "block.usefulzombieflesh.salt_ore": "Salt Ore",
+      "item.usefulzombieflesh.dried_flesh": "Dried Flesh"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "usefulzombieflesh",
+    "modName": "UsefulZombieFlesh",
+    "version": "1.0.0",
+    "author": "FIFI, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.usefulzombieflesh"
+  },
+  "mcreatorVersion": 202400451119
+}
