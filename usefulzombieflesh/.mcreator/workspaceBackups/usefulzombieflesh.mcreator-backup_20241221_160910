@@ -129,19 +129,6 @@
           "src/main/java/net/mcreator/usefulzombieflesh/item/DriedFleshItem.java"
         ]
       }
-    },
-    {
-      "name": "BakedFlesh",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baked_flesh",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/usefulzombieflesh/models/item/baked_flesh.json",
-          "src/main/java/net/mcreator/usefulzombieflesh/item/BakedFleshItem.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -151,7 +138,6 @@
   "language_map": {
     "en_us": {
       "item.usefulzombieflesh.water_bowl": "Water Bowl",
-      "item.usefulzombieflesh.baked_flesh": "Baked Flesh",
       "item.usefulzombieflesh.salt": "Salt",
       "item.usefulzombieflesh.frying_pan": "Frying Pan",
       "block.usefulzombieflesh.salt_ore": "Salt Ore",

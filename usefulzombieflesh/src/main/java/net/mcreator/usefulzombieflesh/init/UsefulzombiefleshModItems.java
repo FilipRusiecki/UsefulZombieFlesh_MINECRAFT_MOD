@@ -15,6 +15,8 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.usefulzombieflesh.item.WaterBowlItem;
 import net.mcreator.usefulzombieflesh.item.SaltItem;
 import net.mcreator.usefulzombieflesh.item.FryingPanItem;
+import net.mcreator.usefulzombieflesh.item.DriedFleshItem;
+import net.mcreator.usefulzombieflesh.item.BakedFleshItem;
 import net.mcreator.usefulzombieflesh.UsefulzombiefleshMod;
 
 public class UsefulzombiefleshModItems {
@@ -23,6 +25,8 @@ public class UsefulzombiefleshModItems {
 	public static final RegistryObject<Item> FRYING_PAN = REGISTRY.register("frying_pan", () -> new FryingPanItem());
 	public static final RegistryObject<Item> WATER_BOWL = REGISTRY.register("water_bowl", () -> new WaterBowlItem());
 	public static final RegistryObject<Item> SALT_ORE = block(UsefulzombiefleshModBlocks.SALT_ORE);
+	public static final RegistryObject<Item> DRIED_FLESH = REGISTRY.register("dried_flesh", () -> new DriedFleshItem());
+	public static final RegistryObject<Item> BAKED_FLESH = REGISTRY.register("baked_flesh", () -> new BakedFleshItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

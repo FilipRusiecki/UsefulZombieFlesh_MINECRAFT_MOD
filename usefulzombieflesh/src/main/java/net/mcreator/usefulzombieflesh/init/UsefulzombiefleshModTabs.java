@@ -25,6 +25,8 @@ public class UsefulzombiefleshModTabs {
 			tabData.accept(UsefulzombiefleshModItems.SALT.get());
 			tabData.accept(UsefulzombiefleshModItems.FRYING_PAN.get());
 			tabData.accept(UsefulzombiefleshModItems.WATER_BOWL.get());
+			tabData.accept(UsefulzombiefleshModItems.DRIED_FLESH.get());
+			tabData.accept(UsefulzombiefleshModItems.BAKED_FLESH.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(UsefulzombiefleshModBlocks.SALT_ORE.get().asItem());
 		}

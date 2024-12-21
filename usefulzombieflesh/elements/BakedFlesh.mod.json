@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "salt",
+    "texture": "bakedflesh",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Salt",
+    "name": "Baked Flesh",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -16,7 +16,7 @@
     ],
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 0,
+    "useDuration": 32,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -44,14 +44,14 @@
     },
     "projectileDisableAmmoCheck": false,
     "isFood": true,
-    "nutritionalValue": 1,
-    "saturation": 0.3,
+    "nutritionalValue": 4,
+    "saturation": 0.5,
     "eatResultItem": {
       "value": ""
     },
-    "isMeat": false,
-    "isAlwaysEdible": false,
-    "animation": "none",
+    "isMeat": true,
+    "isAlwaysEdible": true,
+    "animation": "eat",
     "isMusicDisc": false,
     "musicDiscMusic": {
       "value": ""

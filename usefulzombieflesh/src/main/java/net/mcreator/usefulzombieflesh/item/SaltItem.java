@@ -9,7 +9,7 @@ import net.minecraft.world.food.FoodProperties;
 
 public class SaltItem extends Item {
 	public SaltItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.3f).alwaysEat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.3f).build()));
 	}
 
 	@Override

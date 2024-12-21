@@ -1,6 +1,8 @@
 {
   "item.usefulzombieflesh.water_bowl": "Water Bowl",
+  "item.usefulzombieflesh.baked_flesh": "Dried Flesh",
   "item.usefulzombieflesh.salt": "Salt",
   "item.usefulzombieflesh.frying_pan": "Frying Pan",
-  "block.usefulzombieflesh.salt_ore": "Salt Ore"
+  "block.usefulzombieflesh.salt_ore": "Salt Ore",
+  "item.usefulzombieflesh.dried_flesh": "Dried Flesh"
 }
