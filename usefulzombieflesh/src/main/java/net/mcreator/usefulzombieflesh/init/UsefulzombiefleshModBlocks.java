@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.usefulzombieflesh.block.SaltOreBlock;
 import net.mcreator.usefulzombieflesh.UsefulzombiefleshMod;
 
 public class UsefulzombiefleshModBlocks {

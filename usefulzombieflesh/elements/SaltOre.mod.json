@@ -125,12 +125,12 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "TAG:stone_ore_replaceables"
+        "value": "Blocks.STONE#0"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 20,
+    "frequencyOnChunk": 10,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }
